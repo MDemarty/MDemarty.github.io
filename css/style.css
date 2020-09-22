@@ -1,5 +1,67 @@
 @charset "UTF-8";
 
-h1 {
-    color: red;
+@font-face {
+    font-family: JosefinSans;
+    src: url("fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: LatoRegular;
+    src: url("fonts/Lato/Lato-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.topnav {
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    /*background-color: #02AFF7;*/
+    overflow: hidden;
+    padding: 10px;
+    margin: -8px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    font-weight: 200;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: JosefinSans;
+    color: #151814;
+}
+
+/* mouse over link */
+.topnav a:hover {
+    color: grey;
+    /*background-color: #DFFFD6;*/
+    text-transform: uppercase;
+  /*   padding: 10px; */
+}
+
+/* selected link */
+.topnav a:active {
+    background-color: #F3FFE1;
+}
+
+.topnav ul {
+    text-align: center;
+    padding: 0px;
+}
+  
+.topnav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+body {
+    font-family: JosefinSans;/*Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    text-align:center;
+    background-color: #C6C6C6;
+}
+/*
+p {
+    text-align: center;
+}*/
