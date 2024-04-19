@@ -38,7 +38,7 @@
 
 /* mouse over link */
 .topnav a:hover {
-    color: grey;
+    color: rgb(248, 247, 247);
     /*background-color: #DFFFD6;*/
     text-transform: uppercase;
   /*   padding: 10px; */
