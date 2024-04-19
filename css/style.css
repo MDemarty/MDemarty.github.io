@@ -14,9 +14,13 @@
     font-style: normal;
 }
 
+.logo {
+    max-width: 60px;
+    float: left;
+}
 
 .topnav {
-    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgb(243, 34, 225) 100%);
     /*background-color: #02AFF7;*/
     overflow: hidden;
     padding: 10px;
@@ -46,7 +50,7 @@
 }
 
 .topnav ul {
-    text-align: center;
+    text-align: right;
     padding: 0px;
 }
   
@@ -58,10 +62,26 @@
 
 body {
     font-family: JosefinSans;/*Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
-    text-align:center;
+    text-align:left;
     background-color: #C6C6C6;
+}
+
+article {
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 /*
 p {
     text-align: center;
 }*/
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: -8px;
+    /*position: absolute;*/
+    /*bottom:0;*/
+}
